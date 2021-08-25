@@ -48,8 +48,50 @@
                         bindings = <
    &trans &kp HOME   &kp UP       &kp END      &kp PG_UP &none   &kp AMPS &kp STAR  &kp LPAR  &bt BT_CLR &bt BT_SEL 0 &trans
    &trans &kp LEFT   &kp DOWN     &kp RIGHT    &kp PG_DN &none   &kp DLLR &kp PRCNT &kp CARET &bt BT_PRV &bt BT_NXT   &trans
-   &trans &kp K_MUTE &kp K_VOL_DN &kp K_VOL_DN &kp K_PP  &none   &kp EXCL &kp AT    &kp POUND &none      &none        &trans
+   &trans &kp K_MUTE &kp K_VOL_DN &kp K_VOL_DN &kp K_PP  &none   &kp EXCL &kp AT    &kp POUND &none      &tog 3       &trans
                                             &trans &trans &trans &trans &trans &kp RPAR
+                        >;
+                };
+
+                gyl_default_layer {
+// -----------------------------------------------------------------------------------------
+// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
+// |  GUI |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  | ENT  |
+// | SHFT |  \  |  Z  |  X  |  C  |  V  |   |  B  |  N   |  M  |  ,  |  .  | SHFT |
+//                    | ALT | LWR | SPC |   | ENT | RSE  | CTL |
+                        bindings = <
+   &kp TAB   &kp G     &kp Y &kp L &kp M &kp W   &kp P &kp F  &kp U  &kp B     &kp SEMI  &kp BSPC
+   &kp LGUI  &kp R     &kp S &kp N &kp T &kp D   &kp H &kp A  &kp E  &kp I     &kp O     &kp RET
+   &kp LSHFT &kp BSLH  &kp Z &kp X &kp C &kp V   &kp Q &kp L  &kp K  &kp COMMA &kp DOT   &kp RSHFT
+                          &kp LALT &lt 5 SPACE &mo 4   &mo 5 &lt 4 SPACE &kp RCTRL
+                        >;
+                };
+
+                gyl_lower_layer {
+// -----------------------------------------------------------------------------------------
+// |      |  ^  |  `  |  "  |  '  |  @  |   |  #  |  *  |  {  |  }  |     | DEL  |
+// | ESC  |  ~  |  _  |  =  |  -  |  &  |   |  +  |  /  |  (  |  )  |     |      |
+// |      |  £  |  $  |  ?  |  !  |     |   |  %  |     |  [  |  ]  |     |      |
+//                    |     |     |     |   |     |     |     |
+                        bindings = <
+   &trans  &kp CARET  &kp GRAVE &kp DQT    &kp APOS  &kp AT    &kp HASH        &kp STAR  &kp LBRC  &kp RBRC  &none &kp DEL
+   &kp ESC &kp TILDE  &kp UNDER &kp EQUAL  &kp MINUS &kp AMPS  &kp PLUS        &kp SLASH &kp LPAR  &kp RPAR  &none &trans
+   &trans  &none      &kp DLLR  &kp QMARK  &kp EXCL  &none     &kp PRCN        &none     &kp LBKT  &kp RBKT  &none &trans
+                                          &trans &trans &trans &trans &trans &trans
+                        >;
+                };
+
+                gyl_raise_layer {
+// -----------------------------------------------------------------------------------------
+// |      |HOME | UP  | END |PGUP |     |   |  7  |  8  |  9  |     |     | DEL  |
+// | ESC  |LEFT |DOWN |RIGHT|PGDN |     |   |  4  |  5  |  6  |     |     |      |
+// |      |MUTE |VOL- |VOL+ |PLAY |     |   |  1  |  2  |  3  |     |     |      |
+//                    |     |     |     |   |     |     |  0  |
+                        bindings = <
+   &trans &kp HOME   &kp UP       &kp END      &kp PG_UP &none   &kp N7   &kp N8    &kp N9    &bt BT_CLR &bt BT_SEL 0 &trans
+   &trans &kp LEFT   &kp DOWN     &kp RIGHT    &kp PG_DN &none   &kp N4   &kp N5    &kp N6    &bt BT_PRV &bt BT_NXT   &trans
+   &trans &kp K_MUTE &kp K_VOL_DN &kp K_VOL_DN &kp K_PP  &none   &kp N1   &kp N2    &kp N3     &none      &tog 3      &trans
+                                            &trans &trans &trans &trans &trans &kp N0
                         >;
                 };
         };

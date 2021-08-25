@@ -76,7 +76,7 @@
                         bindings = <
    &trans  &kp CARET  &kp GRAVE &kp DQT    &kp APOS  &kp AT    &kp HASH        &kp STAR  &kp LBRC  &kp RBRC  &none &kp DEL
    &kp ESC &kp TILDE  &kp UNDER &kp EQUAL  &kp MINUS &kp AMPS  &kp PLUS        &kp SLASH &kp LPAR  &kp RPAR  &none &trans
-   &trans  &none      &kp DLLR  &kp QMARK  &kp EXCL  &none     &kp PRCN        &none     &kp LBKT  &kp RBKT  &none &trans
+   &trans  &none      &kp DLLR  &kp QMARK  &kp EXCL  &none     &kp PRCNT       &none     &kp LBKT  &kp RBKT  &none &trans
                                           &trans &trans &trans &trans &trans &trans
                         >;
                 };

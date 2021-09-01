@@ -48,7 +48,7 @@
                         bindings = <
    &trans &kp HOME   &kp UP       &kp END      &kp PG_UP &none   &kp AMPS &kp STAR  &kp LPAR  &bt BT_CLR &bt BT_SEL 0 &trans
    &trans &kp LEFT   &kp DOWN     &kp RIGHT    &kp PG_DN &none   &kp DLLR &kp PRCNT &kp CARET &bt BT_PRV &bt BT_NXT   &trans
-   &trans &kp K_MUTE &kp K_VOL_DN &kp K_VOL_DN &kp K_PP  &none   &kp EXCL &kp AT    &kp POUND &none      &tog 3       &trans
+   &trans &kp K_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_PP  &none   &kp EXCL &kp AT    &kp POUND &none      &tog 3       &trans
                                             &trans &trans &trans &trans &trans &kp RPAR
                         >;
                 };

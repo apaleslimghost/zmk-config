@@ -46,6 +46,9 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9)
 nice_view_spi: &spi0 {
     compatible = "nordic,nrf-spim";
     status = "okay";
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
+    pinctrl-names = "default", "sleep";
     sck-pin = <3>;
     mosi-pin = <2>;
     cs-gpios = <&pro_micro 16 GPIO_ACTIVE_HIGH>;

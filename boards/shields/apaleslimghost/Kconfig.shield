@@ -1,0 +1,5 @@
+config SHIELD_APALESLIMGHOST_LEFT
+    def_bool $(shields_list_contains,apaleslimghost_left)
+
+config SHIELD_APALESLIMGHOST_RIGHT
+    def_bool $(shields_list_contains,apaleslimghost_right)

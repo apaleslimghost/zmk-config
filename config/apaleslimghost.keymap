@@ -24,6 +24,8 @@
    &kp LSHFT &kp GRAVE &kp Z &kp X &kp C &kp V   &kp B &kp N  &kp M  &kp COMMA &kp DOT   &kp RSHFT
                           &kp LALT &lt 2 SPACE &mo 1   &mo 2 &lt 1 SPACE &kp RCTRL
                         >;
+
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp UP DOWN>;
                 };
 
                 lower_layer {

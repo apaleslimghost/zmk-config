@@ -12,7 +12,7 @@
         flavour = "hold-preferred";
         require-prior-idle-ms = <100>;
         retro-tap;
-}
+};
 
 / {
         keymap {

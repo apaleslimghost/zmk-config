@@ -65,7 +65,7 @@
                 g_default_layer {
                         bindings = <
    &kp TAB   &kp G           &kp Y &kp L &kp M &kp W   &kp P &kp F  &kp U  &kp B     &kp SEMI  &kp BSPC
-   &kp LGUI  &kp R           &kp S &kp N &kp T &kp D   &kp H &kp A  &kp E  &kp I     &kp O     &kp RET
+   &mt LGUI ESC  &kp R           &kp S &kp N &kp T &kp D   &kp H &kp A  &kp E  &kp I     &kp O     &kp RET
    &kp LSHFT &kp NON_US_HASH &kp Z &kp X &kp C &kp V   &kp Q &kp J  &kp K  &kp COMMA &kp DOT   &kp RSHFT
                           &kp LALT &lt 5 SPACE &mo 4   &mo 5 &lt 4 SPACE &kp RCTRL
                         >;

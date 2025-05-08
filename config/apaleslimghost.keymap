@@ -75,9 +75,9 @@
 
                 g_lower_layer {
                         bindings = <
-   &trans  &kp CARET  &kp GRAVE       &kp DQT    &kp APOS  &kp AT    &kp NUBS  &kp STAR  &kp LBRC  &kp RBRC  &none &kp DEL
-   &kp ESC &kp TILDE  &kp UNDER       &kp EQUAL  &kp MINUS &kp AMPS  &kp PLUS  &kp SLASH &kp LPAR  &kp RPAR  &none &trans
-   &trans  &none      &kp N3          &kp QMARK  &kp N1    &none     &kp PRCNT &kp DLLR  &kp LBKT  &kp RBKT  &none &trans
+   &trans  &kp CARET  &kp GRAVE       &kp DQT    &kp APOS  &kp AT    &kp LA(N3) &kp STAR  &kp LBRC  &kp RBRC  &none &kp DEL
+   &kp ESC &kp TILDE  &kp UNDER       &kp EQUAL  &kp MINUS &kp AMPS  &kp PLUS   &kp SLASH &kp LPAR  &kp RPAR  &none &trans
+   &trans  &none      &kp N3          &kp QMARK  &kp EXCL  &none     &kp PRCNT  &kp DLLR  &kp LBKT  &kp RBKT  &none &trans
                                           &trans &trans &trans &trans &trans &trans
                         >;
                 };
